@@ -1,27 +1,25 @@
 # Pesa Stat for Android
 
-Analyze your M-Pesa SMS history and create statement-style summaries by person. Data stays on your phone.
+Analyze M-Pesa SMS history and create statement-style summaries by person. Data stays on your phone.
 
 ## Download
 
-**Current version: 1.0.2 (build 3) · Early Access**
+**Current version: 1.0.3 (build 4) · Early Access**
 
-**[Download Pesa Stat for Android](https://github.com/philwamba/pesastat-download/releases/download/v1.0.2-build.3/pesastat-v1.0.2-build.3.apk)**
+**[Download Pesa Stat for Android](https://github.com/philwamba/pesastat-download/releases/download/v1.0.3-build.4/pesastat-v1.0.3-build.4.apk)**
 
 [Release notes and all versions](https://github.com/philwamba/pesastat-download/releases)
 
-Requires **Android 8.0 or later**. Download and open the APK on your Android device, then allow installation from your browser when prompted.
+Requires **Android 8.0 or later**. Download and open the APK, then allow installation from your browser when prompted.
 
-This update includes the latest PDF design: bundled Inter fonts, green table grids, clearer typography, and improved spacing. Export a new PDF after updating to see the changes.
+Includes the latest PDF layout and Inter fonts, success/loading feedback, SMS disclosure, API 36 targeting, and R8 shrinking. SIM-number detection and its permissions have been removed.
 
-**Updating from 1.0.1:** Install over your existing app to keep your data. Both releases use the same signing key.
+**Updating from 1.0.1 or 1.0.2:** Install over your existing app to retain data. The signing key is unchanged. Export a new PDF after updating to see the latest design.
 
-**Upgrading from the old repository APK:** The legacy `apks/pesa-stat.apk` uses a different signing key. Export any needed reports before uninstalling the old app, because uninstalling deletes local data. Install this release and scan your SMS history again.
+**Legacy repository APK:** `apks/pesa-stat.apk` uses a different signing key. Export needed reports before uninstalling it; uninstalling deletes local app data.
 
-This is an early-access release. Device installation and PDF rendering were not tested on a connected device for this release.
+This is an early-access release. The newly optimized APK has passed automated checks but has not been smoke-tested on a device. Read the release notes before installing.
 
-## About these downloads
-
-Each GitHub release includes the signed APK, `SHA256SUMS`, and `release.json`. Use the release download above; `apks/pesa-stat.apk` is an older build retained for existing links.
+Each release includes the signed APK, `SHA256SUMS`, and `release.json`.
 
 [Explore the Pesa Stat project](https://github.com/philwamba/pesastat)
